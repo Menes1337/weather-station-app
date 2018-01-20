@@ -1,4 +1,4 @@
-# Weather Station
+# Shopgate Connect Extension: Weather Station
 
 This is an example to use the Shopgate Connect infrastructure to create an App communicating with an external API and showing Weather data from a Home automation
 
