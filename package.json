@@ -17,8 +17,6 @@
     "start:frontend": "sgcloud frontend start",
     "start:backend": "sgcloud backend start"
   },
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
