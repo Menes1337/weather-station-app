@@ -1,0 +1,15 @@
+{
+  "name": "@massive-apps/weather-station",
+  "version": "0.1.0",
+  "description": "Weather Station for FHEM home automation",
+  "scripts": {
+    "init": "git clone https://github.com/Menes1337/weather-station-app-api extensions/weather-station-api && git clone https://github.com/Menes1337/weather-station-app-theme themes/weather-station && npm run init:npm",
+    "init:npm": "cd extensions/weather-station-api/extension && npm i && cd ../../.. && cd themes/weather-station&& npm i && cd ../../..",
+    "sync:pipelines": "cp -R extensions/weather-station-api/pipelines/. pipelines",
+    "sync:trustedPipelines": "",
+    "sync": "npm run sync:pipelines",
+    "sgconnect:init": "sgcloud init && sgcloud frontend setup && sgcloud extension detach && sgcloud extension attach",
+    "start:frontend": "sgcloud frontend start",
+    "start:backend": "sgcloud backend start"
+  }
+}

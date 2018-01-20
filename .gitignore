@@ -1,0 +1,8 @@
+.idea
+.sgcloud
+pipelines
+themes
+extensions
+trustedPipelines
+.cache-loader
+node_modules
