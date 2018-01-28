@@ -14,7 +14,7 @@
     "sync:trustedPipelines": "",
     "sync": "npm run sync:pipelines",
     "sgconnect:init": "sgcloud init && sgcloud frontend setup && sgcloud extension detach && sgcloud extension attach",
-    "start:frontend": "sgcloud frontend start",
+    "start:frontend": "sgcloud frontend start -t weather-station",
     "start:backend": "sgcloud backend start"
   },
   "dependencies": {},
